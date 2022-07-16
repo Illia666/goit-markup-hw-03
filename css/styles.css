@@ -7,13 +7,43 @@
     --black: #000;
     --hero-color: #2f303a;
   }
+
+  h1,
+  h2,
+  h3,
+  p{
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  ul,ol{
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+  }
+
+  img{
+    display: block;
+  }
   
+  button{
+    cursor: pointer;
+  }
+
   body {
     font-family: 'Roboto', sans-serif;
     font-size: 14px;
     letter-spacing: 0.03em;
     color: var(--text-color);
     background-color: var(--background);
+  }
+
+  .container{
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
   }
   
   .list{
@@ -30,6 +60,9 @@ font-weight: 700;
 font-size: 26px;
 line-height: 1.20;
 color: var(--black);
+margin-right: 93px;
+padding-top: 24px;
+padding-bottom: 25px;
 }
 
 .menu-list,
@@ -37,8 +70,16 @@ color: var(--black);
     list-style: none;
 }
 
+.menu{
+  display: flex;
+  align-items: center;
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
 
-
+.menu-list:not(:last-child){
+margin-right: 50px;
+}
 .active{
     color: var(--active-color);
 }
@@ -48,6 +89,7 @@ font-weight: 500;
 line-height: 1.14;
 letter-spacing: 0.02em;
 color: var(--title-color);
+
 }
 
 .mail-link{
@@ -55,6 +97,7 @@ color: var(--title-color);
     line-height: 1.14;
     letter-spacing: 0.02em;
     color: var(--text-color);
+    margin-right: 50px;
 }
 
 .phone-number{
@@ -70,6 +113,15 @@ color: var(--text-color);
 .contact:focus,
 .contact:hover{
   color: var(--active-color);
+}
+
+.contact{
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+  padding-bottom: 32px;
+  padding-top: 32px;
+
 }
 
 .mail-link:hover,
@@ -91,6 +143,8 @@ color: var(--text-color);
 }
 
 .main-title{
+  width: 696px;
+  height: 120px;
 font-weight: 900;
 font-size: 44px;
 line-height: 1.36;
@@ -98,22 +152,45 @@ text-align: center;
 letter-spacing: 0.06em;
 text-transform: uppercase;
 color:  var(--text-primary-color);
+padding-top: 200px;
+padding-bottom: 30px;
+padding-left: 237px;
+padding-right: 237px;
 }
 
 .modal-btn{
-    font-weight: 700;
-    line-height: 1.88;
-    text-align: center;
-    letter-spacing: 0.06em;
-    color: var(--text-primary-color);
-    background-color: var(--active-color);
-    cursor: pointer;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 32px;
+  padding-right: 32px;
+  font-weight: 700;
+  line-height: 1.88;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: var(--text-primary-color);
+  background-color: var(--active-color);
+  background: #2196F3;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+border-radius: 4px;
+margin-left: 477px;
+margin-right: 477px;
+margin-bottom: 200px;
 }
+
+
 
 .modal-btn:hover,
 .modal-btn:focus{
     color: var(--active-color);
     background-color: var(--text-primary-color);
+}
+
+.about-list{
+  padding-top: 94px;
+  padding-bottom: 118px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
 }
 
 .about{
@@ -128,6 +205,9 @@ color: var(--title-color);
 .about-description{
 font-weight: 400;
 line-height: 1.71;
+flex-wrap: wrap;
+width: 270px;
+height: 70px;
 }
 
 .section-title{
@@ -136,6 +216,26 @@ font-size: 36px;
 line-height: 1.17;
 text-align: center;
 color: var(--title-color);
+padding-top: 94px;
+padding-bottom: 50x;
+}
+
+.work-progress{
+  padding-top: 50px;
+  padding-bottom: 188px;
+  display: flex;
+  gap: 30px;
+}
+
+.team{
+  background: #F5F4FA;
+}
+
+.employees{
+  padding-top: 50px;
+  padding-bottom: 94px;
+  display: flex;
+  gap: 30px;
 }
 
 .employees-name{
@@ -164,7 +264,9 @@ text-align: center;
   color: var(--text-primary-color);
 }
 
-
+.footer-list:not(:last-child) {
+  margin-bottom: 9px;
+}
 .name{
 font-weight: 700;
 font-size: 18px;
@@ -181,6 +283,8 @@ line-height: 1.88;
 
 .footer{
     background-color: var(--hero-color);
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
 
 .projects-title {
@@ -190,6 +294,14 @@ line-height: 1.88;
   
   .filter-list {
     list-style: none;
+    display: flex;
+  justify-content: center;
+  margin-bottom: 56px;
+  margin-top: 100px;
+  }
+
+  .filter-list:not(:last-child) {
+    margin-right: 8px;
   }
   
   .project-title {
@@ -210,6 +322,16 @@ line-height: 1.88;
   .page-header .contact-link {
     color: var(--text-color);
   }
+
+  .page-header-container{
+    display: flex;
+    align-items: center;
+  }
+
+  .page-nav{
+    display: flex;
+    align-items: center;
+  }
   
 .mail-link-footer,
 .phone-number-footer{
@@ -222,8 +344,10 @@ line-height: 1.88;
   font-size: 26px;
   line-height: 1.20;
   color: var(--text-primary-color);
-}
+  display: block;
+  margin-bottom: 20px;
 
+}
 .address{
   font-style: normal;
 }
@@ -253,3 +377,10 @@ color: var(--title-color);
 border: none;
 padding: 6px 22px;
 }
+
+.project{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+margin-top: 100px;
+margin-bottom: 94px;}
