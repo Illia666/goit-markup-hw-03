@@ -1,0 +1,255 @@
+:root {
+    --background: #FFFFFF;
+    --text-color: #757575;
+    --active-color: #2196f3;
+    --title-color: #212121;
+    --text-primary-color: #FFFFFF;
+    --black: #000;
+    --hero-color: #2f303a;
+  }
+  
+  body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    letter-spacing: 0.03em;
+    color: var(--text-color);
+    background-color: var(--background);
+  }
+  
+  .list{
+    list-style: none;
+}
+
+.link{
+    text-decoration: none;
+}
+
+.logo{
+    font-family: 'Raleway', sans-serif;
+font-weight: 700;
+font-size: 26px;
+line-height: 1.20;
+color: var(--black);
+}
+
+.menu-list,
+.contact{
+    list-style: none;
+}
+
+
+
+.active{
+    color: var(--active-color);
+}
+
+.menu-item{
+font-weight: 500;
+line-height: 1.14;
+letter-spacing: 0.02em;
+color: var(--title-color);
+}
+
+.mail-link{
+    font-weight: 500;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--text-color);
+}
+
+.phone-number{
+font-weight: 500;
+line-height: 1.14;
+letter-spacing: 0.02em;
+color: var(--text-color);
+}
+
+.menu-item.active,
+.menu-item:focus,
+.menu-item:hover,
+.contact:focus,
+.contact:hover{
+  color: var(--active-color);
+}
+
+.mail-link:hover,
+.mail-link:focus,
+.mail-link-footer:hover,
+.mail-link-footer:focus{
+    color:  var(--active-color);
+}
+
+.phone-number:hover,
+.phone-number:focus,
+.phone-number-footer:hover,
+.phone-number-footer:focus{
+    color:  var(--active-color);
+}
+
+.hero{
+    background-color: var(--hero-color) ;
+}
+
+.main-title{
+font-weight: 900;
+font-size: 44px;
+line-height: 1.36;
+text-align: center;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+color:  var(--text-primary-color);
+}
+
+.modal-btn{
+    font-weight: 700;
+    line-height: 1.88;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: var(--text-primary-color);
+    background-color: var(--active-color);
+    cursor: pointer;
+}
+
+.modal-btn:hover,
+.modal-btn:focus{
+    color: var(--active-color);
+    background-color: var(--text-primary-color);
+}
+
+.about{
+font-weight: 700;
+font-size: 14px;
+line-height: 1.14;
+text-transform: uppercase;
+
+color: var(--title-color);
+}
+
+.about-description{
+font-weight: 400;
+line-height: 1.71;
+}
+
+.section-title{
+font-weight: 700;
+font-size: 36px;
+line-height: 1.17;
+text-align: center;
+color: var(--title-color);
+}
+
+.employees-name{
+font-weight: 500;
+font-size: 16px;
+line-height: 1.19;
+text-align: center;
+color:var(--title-color);
+}
+
+.employees-position{
+font-weight: 400;
+font-size: 16px;
+line-height: 1.19;
+text-align: center;
+}
+.maps-go:hover,
+.maps-go:focus{
+    color:  var(--active-color);
+}
+
+.maps-go{
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;  
+  color: var(--text-primary-color);
+}
+
+
+.name{
+font-weight: 700;
+font-size: 18px;
+line-height: 2;
+letter-spacing: 0.06em;
+color: var(--title-color);
+}
+
+.technology{
+font-weight: 400;
+font-size: 16px;
+line-height: 1.88;
+}
+
+.footer{
+    background-color: var(--hero-color);
+}
+
+.projects-title {
+    font-size: 0;
+    color: transparent;
+  }
+  
+  .filter-list {
+    list-style: none;
+  }
+  
+  .project-title {
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: var(--title-color);
+  }
+  
+  .button:hover,
+  .button:focus {
+    color: var(--text-primary-color);
+    background-color: var(--active-color);
+  }
+
+
+
+  .page-header .contact-link {
+    color: var(--text-color);
+  }
+  
+.mail-link-footer,
+.phone-number-footer{
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.logo-footer{
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.20;
+  color: var(--text-primary-color);
+}
+
+.address{
+  font-style: normal;
+}
+
+.button-active{
+  font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.62;
+text-align: center;
+letter-spacing: 0.03em;
+color: var(--title-color);
+border: none;
+padding: 6px 22px;
+}
+
+.filter-item{
+  font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.62;
+text-align: center;
+letter-spacing: 0.03em;
+color: var(--title-color);
+border: none;
+padding: 6px 22px;
+}
