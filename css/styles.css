@@ -30,6 +30,10 @@
     cursor: pointer;
   }
 
+  .section{
+    padding: 94px 0;
+  }
+
   body {
     font-family: 'Roboto', sans-serif;
     font-size: 14px;
@@ -138,43 +142,46 @@ color: var(--text-color);
     color:  var(--active-color);
 }
 
-.hero{
-    background-color: var(--hero-color) ;
-}
+
+
+.hero {
+  padding: 200px 0;
+  background-color: var(--hero-color) ;
+  text-align: center;
+margin-right: auto;
+margin-left: auto;
+  }
 
 .main-title{
+  margin-top: 0;
+  margin-bottom: 30px;
+  margin-left: auto;
+  margin-right: auto;
   width: 696px;
-  height: 120px;
-font-weight: 900;
-font-size: 44px;
-line-height: 1.36;
-text-align: center;
-letter-spacing: 0.06em;
-text-transform: uppercase;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
 color:  var(--text-primary-color);
-padding-top: 200px;
-padding-bottom: 30px;
-padding-left: 237px;
-padding-right: 237px;
+
 }
 
 .modal-btn{
-  padding-top: 10px;
-  padding-bottom: 10px;
-  padding-left: 32px;
-  padding-right: 32px;
-  font-weight: 700;
+  display: inline-block;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 32px;
+  min-width: 200px;
+  font-family: 'Roboto';
+  font-size: 16px;
   line-height: 1.88;
-  text-align: center;
+  align-items: center;
   letter-spacing: 0.06em;
   color: var(--text-primary-color);
   background-color: var(--active-color);
-  background: #2196F3;
-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-border-radius: 4px;
-margin-left: 477px;
-margin-right: 477px;
-margin-bottom: 200px;
+  cursor: pointer;
 }
 
 
@@ -186,8 +193,6 @@ margin-bottom: 200px;
 }
 
 .about-list{
-  padding-top: 94px;
-  padding-bottom: 118px;
   display: flex;
   flex-wrap: wrap;
   gap: 30px;
@@ -199,8 +204,7 @@ font-size: 14px;
 line-height: 1.14;
 text-transform: uppercase;
 color: var(--title-color);
-padding-bottom: 10px;
-}
+margin-bottom: 10px;}
 
 .about-description{
 font-weight: 400;
@@ -216,13 +220,10 @@ font-size: 36px;
 line-height: 1.17;
 text-align: center;
 color: var(--title-color);
-padding-top: 94px;
-padding-bottom: 50x;
 }
 
 .work-progress{
-  padding-top: 50px;
-  padding-bottom: 188px;
+  margin-top: 50px;
   display: flex;
   gap: 30px;
 }
@@ -232,8 +233,7 @@ padding-bottom: 50x;
 }
 
 .employees{
-  padding-top: 50px;
-  padding-bottom: 94px;
+margin-top: 50px;
   display: flex;
   gap: 30px;
 }
@@ -244,9 +244,8 @@ font-size: 16px;
 line-height: 1.19;
 text-align: center;
 color:var(--title-color);
-padding-bottom: 10px;
-padding-top: 30px;
-}
+margin-bottom: 10px;
+margin-top: 30px;}
 
 .employees-position{
 font-weight: 400;
@@ -275,14 +274,21 @@ font-size: 18px;
 line-height: 2;
 letter-spacing: 0.06em;
 color: var(--title-color);
-padding-bottom: 4px;
 padding-top: 20px;
+padding-right: 24px;
+padding-left: 24px;
+margin-bottom: 4px;
 }
 
 .technology{
 font-weight: 400;
 font-size: 16px;
 line-height: 1.88;
+margin: 0;
+padding-top: 0;
+padding-left: 24px;
+padding-bottom: 20px;
+padding-right: 24px;
 }
 
 .footer{
@@ -300,11 +306,10 @@ line-height: 1.88;
     list-style: none;
     display: flex;
   justify-content: center;
-  margin-bottom: 56px;
-  margin-top: 100px;
+  margin-bottom: 50px;
   }
 
-  .filter-list:not(:last-child) {
+  .filter-item:not(:last-child){
     margin-right: 8px;
   }
   
@@ -357,34 +362,30 @@ line-height: 1.88;
 }
 
 .button-active{
-  font-family: 'Roboto';
-font-style: normal;
+display: inline-block;
+border: none;
+border-radius: 4px;
+margin-top: 0;
+margin-bottom: 0;
+padding: 6px 22px;
+font-family: inherit;
 font-weight: 500;
 font-size: 16px;
 line-height: 1.62;
 text-align: center;
 letter-spacing: 0.03em;
-color: var(--title-color);
-border: none;
-padding: 6px 22px;
+cursor: pointer;
 }
 
-.filter-item{
-  font-family: 'Roboto';
-font-style: normal;
-font-weight: 500;
-font-size: 16px;
-line-height: 1.62;
-text-align: center;
-letter-spacing: 0.03em;
-color: var(--title-color);
-border: none;
-padding: 6px 22px;
+.button-active:not(:last-child){
+  margin-left: 8px;
 }
+
 
 .project{
   display: flex;
   flex-wrap: wrap;
   gap: 30px;
-margin-top: 100px;
-margin-bottom: 94px;}
+padding: 0;
+padding-bottom: 50px;}
+
