@@ -232,6 +232,10 @@ color: var(--title-color);
   background: #F5F4FA;
 }
 
+.team-item{
+  background-color: var(--text-primary-color);
+}
+
 .employees{
 margin-top: 50px;
   display: flex;
@@ -252,6 +256,7 @@ font-weight: 400;
 font-size: 16px;
 line-height: 1.19;
 text-align: center;
+margin-bottom: 30px;
 }
 .maps-go:hover,
 .maps-go:focus{
