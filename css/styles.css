@@ -101,9 +101,11 @@ color: var(--title-color);
     line-height: 1.14;
     letter-spacing: 0.02em;
     color: var(--text-color);
-    margin-right: 50px;
 }
 
+.contact .item + .item {
+  margin-left: 50px;
+}
 .phone-number{
 font-weight: 500;
 line-height: 1.14;
@@ -214,6 +216,10 @@ width: 270px;
 height: 70px;
 }
 
+.about-img{
+  padding-top: 0;
+}
+
 .section-title{
 font-weight: 700;
 font-size: 36px;
@@ -249,19 +255,18 @@ line-height: 1.19;
 text-align: center;
 color:var(--title-color);
 margin-bottom: 10px;
-margin-top: 30px;}
+padding-top: 30px;
+}
+
+
 
 .employees-position{
 font-weight: 400;
 font-size: 16px;
 line-height: 1.19;
 text-align: center;
-margin-bottom: 30px;
-}
-.maps-go:hover,
-.maps-go:focus{
-    color:  var(--active-color);
-}
+padding-bottom: 30px;}
+
 
 .maps-go{
   font-weight: 400;
