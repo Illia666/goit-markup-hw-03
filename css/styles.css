@@ -236,6 +236,7 @@ color: var(--title-color);
 
 .team{
   background: #F5F4FA;
+  padding-top: 0;
 }
 
 .team-item{
