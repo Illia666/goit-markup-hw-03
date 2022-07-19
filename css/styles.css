@@ -58,6 +58,8 @@
     text-decoration: none;
 }
 
+
+
 .logo{
     font-family: 'Raleway', sans-serif;
 font-weight: 700;
@@ -236,7 +238,6 @@ color: var(--title-color);
 
 .team{
   background: #F5F4FA;
-  padding-top: 0;
 }
 
 .team-item{
